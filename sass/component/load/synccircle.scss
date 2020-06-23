@@ -1,0 +1,26 @@
+.syncCircle{
+ position: relative;
+  width: 6rem;
+  &::before{
+     content: "";
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid #424242;
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    border-radius: 50rem;
+    animation: syncCircleIn 2s .2s linear infinite;
+  }
+  &::after{
+   content: "";
+    border-radius: 50rem;
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid #424242;
+    position: absolute;
+    top: 0;
+    left: -1.5rem;
+    animation: syncCircleout 2s .5s linear infinite;
+}
+}

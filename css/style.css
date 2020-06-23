@@ -1,0 +1,602 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  padding: 2rem; }
+
+.pd-2 {
+  padding: 2rem; }
+  .pd-2 h2 {
+    margin-bottom: 2rem; }
+
+.battery-icon {
+  position: relative;
+  border-radius: 0.5rem;
+  width: 4rem;
+  height: 2rem;
+  padding: 0.3rem;
+  border: 2px solid #424242; }
+
+.battery-icon::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 0.5rem;
+  height: 1.5rem;
+  background-color: #424242;
+  border-radius: 4px;
+  animation: charging-battery linear infinite 2s; }
+
+.battery-icon::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  right: -0.5rem;
+  width: 0.5rem;
+  height: 0.6rem;
+  transform: translate(38%, 55%);
+  background-color: #424242;
+  border-radius: 50px; }
+
+.watch-icon {
+  position: relative;
+  width: 6rem;
+  height: 1.5rem;
+  border-radius: 8px;
+  background-color: #424242; }
+  .watch-icon:before {
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    width: 3rem;
+    height: 3rem;
+    transform: translate(-50%, 0);
+    border-radius: 50rem;
+    content: "";
+    border: 2px solid #ffffff;
+    background-color: #424242; }
+  .watch-icon:after {
+    content: "";
+    top: 50%;
+    left: 50%;
+    width: 1.2rem;
+    height: 0.2rem;
+    position: absolute;
+    border-radius: 50rem;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    animation: rotate-Hand 3s linear infinite;
+    transform-origin: left; }
+
+@keyframes rotate-Hand {
+  0% {
+    transform: translate(0, -50%) rotate(0); }
+  10% {
+    transform: translate(0, -50%) rotate(-35deg); }
+  15% {
+    transform: translate(0, -50%) rotate(-70deg); }
+  20% {
+    transform: translate(0, -50%) rotate(-105deg); }
+  30% {
+    transform: translate(0, -50%) rotate(-140deg); }
+  40% {
+    transform: translate(0, -50%) rotate(-175deg); }
+  50% {
+    transform: translate(0, -50%) rotate(-220deg); }
+  60% {
+    transform: translate(0, -50%) rotate(-255deg); }
+  70% {
+    transform: translate(0, -50%) rotate(-290deg); }
+  80% {
+    transform: translate(0, -50%) rotate(-320deg); }
+  90% {
+    transform: translate(0, -50%) rotate(-340deg); }
+  100% {
+    transform: translate(0, -50%) rotate(-360deg); } }
+
+.briefcase-icon {
+  position: relative;
+  width: 6rem;
+  height: 4rem;
+  background-color: #424242;
+  border-radius: .5rem; }
+  .briefcase-icon:before {
+    content: "";
+    position: absolute;
+    width: 1rem;
+    height: 1.5rem;
+    border-radius: 2px;
+    top: -20%;
+    transform: translateX(-50%);
+    left: 50%;
+    border: 4px solid #424242; }
+  .briefcase-icon:after {
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    background-color: #86ddf3;
+    width: .5rem;
+    height: 1rem;
+    animation: oscli-tag linear 1s infinite;
+    transform-origin: top; }
+
+@keyframes oscli-tag {
+  0% {
+    transform: rotate(0); }
+  10% {
+    transform: rotate(35deg); }
+  15% {
+    transform: rotate(40deg); }
+  20% {
+    transform: rotate(45deg); }
+  30% {
+    transform: rotate(50deg); }
+  40% {
+    transform: rotate(55deg); }
+  50% {
+    transform: rotate(60deg); }
+  60% {
+    transform: rotate(55deg); }
+  70% {
+    transform: rotate(50deg); }
+  80% {
+    transform: rotate(45deg); }
+  90% {
+    transform: rotate(40deg); }
+  100% {
+    transform: rotate(35deg); } }
+
+.suitcase-icon {
+  position: relative;
+  width: 4rem;
+  height: 6rem;
+  background-color: #424242;
+  border-radius: .5rem;
+  color: #424242; }
+  .suitcase-icon:before {
+    content: "";
+    position: absolute;
+    width: 1rem;
+    height: 1.5rem;
+    border-radius: 2px;
+    top: -20%;
+    transform: translateX(-50%);
+    left: 50%;
+    border: 4px solid currentColor; }
+  .suitcase-icon:after {
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    background-color: #86ddf3;
+    width: .5rem;
+    height: 1rem;
+    animation: oscli-tag linear 1s infinite;
+    transform-origin: top; }
+
+@keyframes oscli-tag {
+  0% {
+    transform: rotate(0); }
+  10% {
+    transform: rotate(35deg); }
+  15% {
+    transform: rotate(40deg); }
+  20% {
+    transform: rotate(45deg); }
+  30% {
+    transform: rotate(50deg); }
+  40% {
+    transform: rotate(55deg); }
+  50% {
+    transform: rotate(60deg); }
+  60% {
+    transform: rotate(55deg); }
+  70% {
+    transform: rotate(50deg); }
+  80% {
+    transform: rotate(45deg); }
+  90% {
+    transform: rotate(40deg); }
+  100% {
+    transform: rotate(35deg); } }
+
+.bulb-icon {
+  position: relative;
+  width: 2rem;
+  height: 4rem; }
+  .bulb-icon::after {
+    content: "";
+    position: absolute;
+    top: 25%;
+    left: 12.5%;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 4px solid #ffffff;
+    background-color: #424242;
+    border-radius: 50rem; }
+  .bulb-icon::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 12.5%;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 2px solid #ffffff;
+    clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
+    background-color: #424242;
+    border-radius: 50rem; }
+
+@keyframes charging-battery {
+  0% {
+    width: 0%; }
+  25% {
+    width: 25%; }
+  50% {
+    width: 50%; }
+  75% {
+    width: 75%; }
+  100% {
+    width: 90%; } }
+
+@keyframes load-grow {
+  0% {
+    height: 10%; }
+  10% {
+    height: 25%; }
+  20% {
+    height: 50%; }
+  30% {
+    height: 75%; }
+  40% {
+    height: 90%; }
+  50% {
+    height: 100%; }
+  60% {
+    height: 100%; }
+  70% {
+    height: 75%; }
+  80% {
+    height: 50%; }
+  90% {
+    height: 25%; }
+  100% {
+    height: 10%; } }
+
+@keyframes load-ungrow {
+  0% {
+    height: 100%; }
+  10% {
+    height: 75%; }
+  20% {
+    height: 50%; }
+  30% {
+    height: 25%; }
+  40% {
+    height: 10%; }
+  50% {
+    height: 0%; }
+  60% {
+    height: 10%; }
+  70% {
+    height: 25%; }
+  80% {
+    height: 50%; }
+  90% {
+    height: 75%; }
+  100% {
+    height: 100%; } }
+
+@keyframes load-ungrow-nbtw {
+  0% {
+    height: 80%; }
+  10% {
+    height: 75%; }
+  20% {
+    height: 50%; }
+  30% {
+    height: 25%; }
+  40% {
+    height: 10%; }
+  50% {
+    height: 0%; }
+  60% {
+    height: 10%; }
+  70% {
+    height: 25%; }
+  80% {
+    height: 50%; }
+  90% {
+    height: 75%; }
+  100% {
+    height: 80%; } }
+
+@keyframes circle-loading {
+  0% {
+    transform: scale(1); }
+  10% {
+    transform: scale(1); }
+  20% {
+    transform: scale(0.9); }
+  30% {
+    transform: scale(0.8); }
+  40% {
+    transform: scale(0.7); }
+  50% {
+    transform: scale(0.6); }
+  60% {
+    transform: scale(0.6); }
+  70% {
+    transform: scale(0.7); }
+  80% {
+    transform: scale(0.8); }
+  90% {
+    transform: scale(0.9); }
+  100% {
+    transform: scale(1); } }
+
+@keyframes circle-loading-in {
+  0% {
+    transform: scale(4); }
+  10% {
+    transform: scale(3.6); }
+  20% {
+    transform: scale(3.2); }
+  30% {
+    transform: scale(2.8); }
+  40% {
+    transform: scale(2.4); }
+  50% {
+    transform: scale(2); }
+  60% {
+    transform: scale(2); }
+  70% {
+    transform: scale(2.4); }
+  80% {
+    transform: scale(2.8); }
+  90% {
+    transform: scale(3.2); }
+  100% {
+    transform: scale(3.6); } }
+
+@keyframes circle-loading-out {
+  0% {
+    transform: scale(4.4); }
+  10% {
+    transform: scale(4); }
+  20% {
+    transform: scale(3.6); }
+  30% {
+    transform: scale(3.2); }
+  40% {
+    transform: scale(2.8); }
+  50% {
+    transform: scale(2.4); }
+  60% {
+    transform: scale(2); }
+  70% {
+    transform: scale(2.4); }
+  80% {
+    transform: scale(2.8); }
+  90% {
+    transform: scale(3.2); }
+  100% {
+    transform: scale(3.6); } }
+
+@keyframes syncCircleIn {
+  0% {
+    transform: scale(1.8); }
+  10% {
+    transform: scale(1.6); }
+  20% {
+    transform: scale(1.4); }
+  30% {
+    transform: scale(1.2); }
+  40% {
+    transform: scale(0.8); }
+  50% {
+    transform: scale(0.6); }
+  60% {
+    transform: scale(0.8); }
+  70% {
+    transform: scale(1.2); }
+  80% {
+    transform: scale(1.4); }
+  90% {
+    transform: scale(1.6); }
+  100% {
+    transform: scale(1.8); } }
+
+@keyframes syncCircleout {
+  0% {
+    transform: scale(0.6); }
+  10% {
+    transform: scale(0.8); }
+  20% {
+    transform: scale(1.2); }
+  30% {
+    transform: scale(1.4); }
+  40% {
+    transform: scale(1.6); }
+  50% {
+    transform: scale(1.8); }
+  60% {
+    transform: scale(1.6); }
+  70% {
+    transform: scale(1.4); }
+  80% {
+    transform: scale(1.2); }
+  90% {
+    transform: scale(0.8); }
+  100% {
+    transform: scale(0.6); } }
+
+.loading {
+  height: 3rem;
+  width: 1rem;
+  background-color: #424242;
+  border-radius: 50rem;
+  position: relative;
+  transition: all .5s ease-in-out; }
+  .loading:hover {
+    transform: translate(1.1%); }
+
+.loading::before {
+  content: "";
+  max-height: 3rem;
+  height: 1rem;
+  width: 1rem;
+  background-color: #424242;
+  border-radius: 50rem;
+  position: absolute;
+  left: -1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  animation: load-ungrow linear infinite 1.5s; }
+
+.loading::after {
+  content: "";
+  transform: translateY(-50%);
+  max-height: 3rem;
+  height: 1rem;
+  width: 1rem;
+  animation: load-grow linear infinite 1.5s;
+  background-color: #424242;
+  border-radius: 50rem;
+  position: absolute;
+  right: -1.5rem;
+  top: 50%; }
+
+.circle-loading {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50rem;
+  border: 2px solid #424242;
+  position: relative; }
+  .circle-loading::before {
+    content: "";
+    position: absolute;
+    top: 34%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50rem;
+    border: 2px solid #424242;
+    animation: circle-loading-in linear 3s infinite; }
+  .circle-loading:after {
+    content: "";
+    position: absolute;
+    top: -34%;
+    left: -34%;
+    width: 6rem;
+    height: 6rem;
+    animation: circle-loading linear 3s infinite;
+    border-radius: 50rem;
+    border: 2px solid #424242; }
+
+.syncCircle {
+  position: relative;
+  width: 6rem; }
+  .syncCircle::before {
+    content: "";
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid #424242;
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    border-radius: 50rem;
+    animation: syncCircleIn 2s .2s linear infinite; }
+  .syncCircle::after {
+    content: "";
+    border-radius: 50rem;
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid #424242;
+    position: absolute;
+    top: 0;
+    left: -1.5rem;
+    animation: syncCircleout 2s .5s linear infinite; }
+
+.checkbox {
+  display: none; }
+
+.checker {
+  cursor: pointer; }
+
+.checkerIcon {
+  width: 1.7rem;
+  height: 1.7rem;
+  border: 2px solid #424242;
+  position: relative;
+  border-radius: 5px; }
+  .checkerIcon:before {
+    content: " ";
+    position: absolute;
+    opacity: 0;
+    top: 0.8rem;
+    transition: all .35s;
+    width: 0.8rem;
+    height: 4px;
+    background-color: #424242;
+    border-radius: 5px; }
+  .checkerIcon:after {
+    content: " ";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    border-radius: 5px;
+    transition: all .35s;
+    width: 1.8rem;
+    height: 4px;
+    background-color: #424242; }
+
+.checkbox:checked ~ .checker > .checkerIcon:before {
+  transform: rotate(50deg);
+  opacity: 1; }
+
+.checkbox:checked ~ .checker > .checkerIcon:after {
+  transform: translate(0.15rem, 0.6rem) rotate(-35deg);
+  opacity: 1; }
+
+.radioBox {
+  display: none; }
+
+.radio .radioIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50rem;
+  border: 2px solid #424242;
+  position: relative; }
+  .radio .radioIcon::after {
+    content: "";
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #424242;
+    border-radius: 20rem;
+    position: absolute;
+    top: 32%;
+    left: 32%;
+    opacity: 0;
+    transition: all .35s; }
+  .radio .radioIcon::before {
+    content: "";
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 20rem;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(-6%, -6%);
+    opacity: 0;
+    transition: all .35s; }
+
+.radioBox:checked + .radio > .radioIcon::after {
+  opacity: 1; }
+
+.bg {
+  background-color: #86ddf3 !important; }

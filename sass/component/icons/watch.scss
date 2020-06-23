@@ -1,0 +1,72 @@
+.watch-icon{
+  position: relative;
+  width: 6rem;
+  height: 1.5rem;
+  border-radius: 8px;
+  background-color: #424242;
+  &:before{
+
+position: absolute;
+    top: -50%;
+    left: 50%;
+    width: 3rem;
+    height: 3rem;
+    transform: translate(-50%,0);
+    border-radius: 50rem;
+    content: "";
+    border: 2px solid #ffffff;
+    background-color: #424242;
+  }
+  &:after{
+    content: "";
+    top: 50%;
+    left: 50%;
+    width: 1.2rem;
+    height: 0.2rem;
+    position: absolute;
+    //transform: translate(0,-50%) rotate(-45deg);
+    border-radius: 50rem;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    animation:rotate-Hand 3s linear infinite;
+    transform-origin: left;
+  }
+}
+@keyframes rotate-Hand {
+    0%{
+      transform: translate(0,-50%) rotate(0);
+    }
+    10%{
+      transform: translate(0,-50%) rotate(-35deg);
+    }
+  15%{
+    transform: translate(0,-50%) rotate(-70deg);
+  }
+  20%{
+    transform: translate(0,-50%) rotate(-105deg);
+  }
+  30%{
+    transform: translate(0,-50%) rotate(-140deg);
+  }
+  40%{
+    transform: translate(0,-50%) rotate(-175deg);
+  }
+  50%{
+    transform: translate(0,-50%) rotate(-220deg);
+  }
+  60%{
+    transform: translate(0,-50%) rotate(-255deg);
+  }
+  70%{
+    transform: translate(0,-50%) rotate(-290deg);
+  }
+  80%{
+    transform: translate(0,-50%) rotate(-320deg);
+  }
+  90%{
+    transform: translate(0,-50%) rotate(-340deg);
+  }
+  100%{
+    transform: translate(0,-50%) rotate(-360deg);
+  }
+}

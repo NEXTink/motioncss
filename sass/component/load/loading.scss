@@ -1,0 +1,39 @@
+.loading{
+  //height: 1rem;
+  height: 3rem;
+  width: 1rem;
+  background-color: #424242;
+  border-radius: 50rem;
+  position: relative;
+  //animation: load-grow linear infinite 2s;
+  transition: all .5s ease-in-out;
+  &:hover{
+    transform: translate(1.1%);
+  }
+}
+.loading::before{
+  content: "";
+  max-height: 3rem;
+  height: 1rem;
+  width: 1rem;
+  background-color: #424242;
+  border-radius: 50rem;
+  position: absolute;
+  left: -1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  animation: load-ungrow linear infinite 1.5s;
+}
+.loading::after{
+  content: "";
+  transform: translateY(-50%);
+  max-height: 3rem;
+  height: 1rem;
+  width: 1rem;
+  animation: load-grow linear infinite 1.5s;
+  background-color: #424242;
+  border-radius: 50rem;
+  position: absolute;
+  right: -1.5rem;
+  top: 50%;
+}

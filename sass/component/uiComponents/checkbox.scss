@@ -1,0 +1,52 @@
+.checkbox{
+  display: none;
+}
+.checker{
+cursor: pointer;
+}
+.checkerIcon{
+  width: 1.7rem;
+  height: 1.7rem;
+  border: 2px solid #424242;
+  position: relative;
+  border-radius: 5px;
+  &:before{
+    content: " ";
+    position: absolute;
+    opacity: 0;
+    top: 0.8rem;
+transition: all .35s;
+    width: 0.8rem;
+    height: 4px;
+    background-color: #424242;
+    border-radius: 5px;
+
+  }
+  &:after{
+  content: " ";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    border-radius: 5px;
+transition: all .35s;
+    width: 1.8rem;
+    height: 4px;
+    background-color: #424242;
+  }
+}
+.checkbox:checked ~ .checker >.checkerIcon:before{
+  transform: rotate(50deg);
+  //background-color: aqua;
+  opacity: 1;
+}
+.checkbox:checked ~ .checker >.checkerIcon:after{
+  transform: translate(0.15rem,0.6rem) rotate(-35deg);
+  //background-color: aqua;
+  opacity: 1;
+
+}
+
+
+
+
+

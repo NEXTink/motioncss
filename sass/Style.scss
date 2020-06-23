@@ -1,0 +1,22 @@
+@import "./base/base";
+@import "abstract/typography";
+@import "abstract/reusables";
+@import "component/button/grdButtons";
+@import "component/button/neomorphicButtons";
+@import "component/button/normalButtons";
+@import "page/home";
+@import "vendor/ting";
+@import "component/icons/battery";
+@import "component/icons/watch";
+@import "component/icons/briefcase";
+@import "component/icons/suitcase";
+@import "component/icons/bulb";
+@import "animations/iconanimations/icon";
+@import "component/load/loading";
+@import "component/load/circle-loading";
+@import "component/load/synccircle";
+@import "component/uiComponents/checkbox";
+@import "component/uiComponents/radio";
+.bg{
+  background-color: #86ddf3!important;
+}

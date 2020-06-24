@@ -29,7 +29,7 @@ There are so many choices, but select the ones that apply to the icon choosen.
 
 
 # Ui Components
- * ####  Buttons
+ *  Buttons
      * This line of html code helps to render a gradient button.
      There are numerous buttons to pick from, and more will be added regularly.
  ```html
@@ -94,11 +94,12 @@ There are so many choices, but select the ones that apply to the icon choosen.
     <span class="grdBtn grdBtn-or-gr">Motion</span>
 </div>
  ```
+![buttons img](/img/motion4.png)
           
 
-* ####  Elements
+*  Elements
    * Also there are many animated ui elements to pick from. From checkboxes to radio buttons
- 
+   * The colors can be changed by targeting the color of the element
  ```html
 
    <input id="checkBox" type="checkbox" class="checkbox">
@@ -109,6 +110,7 @@ There are so many choices, but select the ones that apply to the icon choosen.
            </label>
 ```
 
+![Elements img](/img/motion3.png)
 
 ##  Adding loader animations to your Site
 * Firstly, the html markup
@@ -150,6 +152,11 @@ There are so many choices, but select the ones that apply to the icon choosen.
           })
 
 ```
+![icons img](/img/motion2.png)
+
+* load elements
+
+![loading Logo](/img/motion1.png)
 
 ### Note: Motion Css is free and subject to your customization.
 

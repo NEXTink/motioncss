@@ -27,6 +27,89 @@ There are so many choices, but select the ones that apply to the icon choosen.
 * loading animations
 * Ui Components
 
+
+# Ui Components
+ * ##### Buttons
+     * This line of html code helps to render a gradient button.
+     There are numerous buttons to pick from, and more will be added regularly.
+ ```html
+
+  
+    <button class="roundBtn roundBtn-black">Motion</button>
+    
+ ``` 
+ * The available buttons are
+    
+  ```html
+      
+        
+          
+<div class="pd-2">
+    <h2>small corner Buttons</h2>
+    <span class="btn btn-black">Motion</span>
+    <span class="btn btn-yell">Motion</span>
+    <span class="btn btn-gr">Motion</span>
+    <span class="btn btn-red">Motion</span>
+    <span class="btn btn-orange">Motion</span>
+    <span class="btn btn-blue">Motion</span>
+</div>
+<div class="pd-2">
+    <h2>small corner Buttons inverted</h2>
+    <span class="btn btn-r-black">Motion</span>
+    <span class="btn btn-r-yell">Motion</span>
+    <span class="btn btn-r-gr">Motion</span>
+    <span class="btn btn-r-red">Motion</span>
+    <span class="btn btn-r-orange">Motion</span>
+    <span class="btn btn-r-blue">Motion</span>
+</div>
+<div class="pd-2">
+    <h2>Buttons Round corners</h2>
+    <span class="roundBtn roundBtn-black">Motion</span>
+    <span class="roundBtn roundBtn-yell">Motion</span>
+    <span class="roundBtn roundBtn-gr">Motion</span>
+    <span class="roundBtn roundBtn-red">Motion</span>
+    <span class="roundBtn roundBtn-orange">Motion</span>
+    <span class="roundBtn roundBtn-blue">Motion</span>
+</div>
+<div class="pd-2">
+    <h2>Buttons Round corners inverted</h2>
+    <span class="roundBtn roundBtn-r-black">Motion</span>
+    <span class="roundBtn roundBtn-r-yell">Motion</span>
+    <span class="roundBtn roundBtn-r-gr">Motion</span>
+    <span class="roundBtn roundBtn-r-red">Motion</span>
+    <span class="roundBtn roundBtn-r-orange">Motion</span>
+    <span class="roundBtn roundBtn-r-blue">Motion</span>
+</div>
+<div class="pd-2">
+    <h2>Gradient Buttons Round corners</h2>
+    <span class="grdBtn grdBtn-bl-gr">Motion</span>
+    <span class="grdBtn grdBtn-rd-bc">Motion</span>
+    <span class="grdBtn grdBtn-or-bl">Motion</span>
+    <span class="grdBtn grdBtn-rd-bl">Motion</span>
+    <span class="grdBtn grdBtn-or-rd">Motion</span>
+    <span class="grdBtn grdBtn-or-gr">Motion</span>
+
+
+    <span class="grdBtn grdBtn-yell-gr">Motion</span>
+    <span class="grdBtn grdBtn-or-gr">Motion</span>
+</div>
+ ```
+          
+
+* ##### Elements
+   * Also there are many animated ui elements to pick from. From checkboxes to radio buttons
+ 
+ ```html
+
+   <input id="checkBox" type="checkbox" class="checkbox">
+           <label for="checkBox" class="checker">
+               <div class="checkerIcon">
+                   &nbsp;
+               </div>
+           </label>
+```
+
+
 ##  Adding loader animations to your Site
 * Firstly, the html markup
 ```html

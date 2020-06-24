@@ -1,0 +1,411 @@
+
+.btn{
+  &:link,&{
+   text-align: center;
+   padding: 1rem 2rem;
+   display: inline-block;
+   // border: none;
+   text-decoration: none;
+   text-transform: capitalize;
+   font-size: 1.2rem;
+   box-shadow: 0 2px 4px rgba($color: #000000, $alpha: .2);
+   border-radius: 8px;
+   margin: 1rem;
+  }
+//////green button
+  &-gr{
+     background-color:rgb(6, 124, 85);
+     color: white;
+     transition: all .25s;
+     &:hover{
+      background-color: rgb(7, 179, 141) ;
+     }
+  }
+////////////green reverse button
+&-r-gr{
+  background-color:transparent;
+  color:  rgb(6, 124, 85);
+  transition: all .25s;
+  border: 2px solid rgb(6, 124, 85) ;
+  &:hover{
+   color: #ffffff;  
+   background-color: rgb(6, 124, 85);
+   border: 2px solid rgb(6, 124, 85) ;
+  }
+}
+  ////red button  ,rgb(6, 124, 85)50%,rgb(14, 226, 180)
+
+  &-red{
+      background-color: rgb(226, 14, 60);
+      color: white;
+      transition: all .25s;
+      &:hover{
+       background-color: rgb(255, 45, 63) ;
+      }
+   } 
+
+////////reverse-red button
+
+  &-r-red{
+       background-color: transparent;
+       border: 2px solid rgb(255, 45, 63) ;
+       color: rgb(226, 14, 60);
+       transition: all .25s cubic-bezier(0.215, 0.610, 0.355, 1);
+       &:hover{
+           background-color: rgb(226, 14, 60);
+           color: white;
+           border: 2px solid  rgb(226, 14, 60);
+       }    
+  }
+/////blue button
+
+&-blue{
+   background-color: rgb(14, 113, 226);
+   color: white;
+   transition: all .25s;
+   &:hover{
+    background-color: rgb(9, 79, 160) ;
+   }
+} 
+
+////reverse blue
+&-r-blue{
+   background-color: transparent;
+   border:2px solid  rgb(14, 113, 226);
+   color: rgb(14, 113, 226);
+   transition: all .25s;
+   &:hover{
+    background-color: rgb(9, 79, 160) ;
+    color: white;
+    border:2px solid rgb(9, 79, 160) ;
+   }
+} 
+
+//orange button
+&-orange{
+   background-color: rgb(247, 141, 21);
+   color: white;
+   transition: all .25s;
+   &:hover{
+    background-color: rgb(214, 132, 8) ;
+   }
+} 
+////reverse orange
+&-r-orange{
+   background-color: transparent;
+   border:2px solid  rgb(247, 141, 21);;
+   color:rgb(247, 141, 21);
+   transition: all .25s;
+   &:hover{
+    background-color: rgb(214, 132, 8) ;
+    color: white;
+    border:2px solid rgb(214, 132, 8) ;
+   }
+} 
+
+///yellow button
+&-yell{
+   background-color: rgb(248, 244, 7);
+   color: rgb(17, 17, 17);
+   transition: all .25s;
+   &:hover{
+    background-color: rgb(214, 211, 8) ;
+   }
+} 
+////reverse yellow
+&-r-yell{
+   background-color: transparent;
+   border:2px solid  rgb(247, 243, 21);
+   color:rgb(247, 243, 21);
+   transition: all .25s;
+   &:hover{
+    background-color: rgb(214, 211, 8) ;
+    color: rgb(17, 17, 17);
+    border:2px solid rgb(214, 211, 8) ;
+   }
+} 
+
+///black button
+&-black{
+   background-color: rgb(22, 22, 22);
+   color: white;
+   transition: all .25s;
+   &:hover{
+    background-color: rgb(5, 5, 5) ;
+   }
+} 
+////reverse yellow
+&-r-black{
+   background-color: transparent;
+   border:2px solid  rgb(22, 22, 22);
+   color:rgb(22, 22, 22);;
+   transition: all .25s;
+   &:hover{
+    background-color:  rgb(5, 5, 5) ;
+    color: rgb(255, 255, 255) ;
+    border:2px solid   rgb(5, 5, 5) ;
+   }
+} 
+
+
+
+
+
+
+
+
+
+  &:hover,&:focus{
+      box-shadow: 0 4px 8px rgba($color: #000000, $alpha: .2);
+  }
+}
+
+
+///roundBtn
+
+.roundBtn{
+   &:link,&{
+    text-align: center;
+    padding: 1rem 2rem;
+    display: inline-block;
+    // border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    box-shadow: 0 2px 4px rgba($color: #000000, $alpha: .2);
+    border-radius: 4rem;
+    margin: 1rem;
+   }
+
+   /////green
+   &-gr{
+     background-color:rgb(6, 124, 85);
+     color: white;
+     transition: all .25s;
+     &:hover{
+      background-color: rgb(7, 179, 141) ;
+     }
+  }
+////////////green reverse button
+&-r-gr{
+  background-color:transparent;
+  color:  rgb(6, 124, 85);
+  transition: all .25s;
+  border: 2px solid rgb(6, 124, 85) ;
+  &:hover{
+   color: #ffffff;  
+   background-color: rgb(6, 124, 85);
+   border: 2px solid rgb(6, 124, 85) ;
+  }
+}
+   ////red button
+
+   &-red{
+       background-color: rgb(226, 14, 60);
+       color: white;
+       transition: all .25s;
+       &:hover{
+        background-color: rgb(255, 45, 63) ;
+       }
+    } 
+
+////////reverse-red button
+
+   &-r-red{
+        background-color: transparent;
+        border: 2px solid rgb(255, 45, 63) ;
+        color: rgb(226, 14, 60);
+        transition: all .25s cubic-bezier(0.215, 0.610, 0.355, 1);
+        &:hover{
+            background-color: rgb(226, 14, 60);
+            color: white;
+            border: 2px solid  rgb(226, 14, 60);
+        }    
+   }
+/////blue button
+
+&-blue{
+    background-color: rgb(14, 113, 226);
+    color: white;
+    transition: all .25s;
+    &:hover{
+     background-color: rgb(9, 79, 160) ;
+    }
+ } 
+
+ ////reverse blue
+ &-r-blue{
+    background-color:transparent;
+    border:2px solid  rgb(14, 113, 226);
+    color: rgb(14, 113, 226);
+    transition: all .25s;
+    &:hover{
+     background-color: rgb(9, 79, 160) ;
+     color: white;
+     border:2px solid rgb(9, 79, 160) ;
+    }
+ } 
+
+ //orange button
+ &-orange{
+    background-color: rgb(247, 141, 21);
+    color: white;
+    transition: all .25s;
+    &:hover{
+     background-color: rgb(214, 132, 8) ;
+    }
+ } 
+ ////reverse orange
+ &-r-orange{
+    background-color: transparent;
+    border:2px solid  rgb(247, 141, 21);;
+    color:rgb(247, 141, 21);
+    transition: all .25s;
+    &:hover{
+     background-color: rgb(214, 132, 8) ;
+     color: white;
+     border:2px solid rgb(214, 132, 8) ;
+    }
+ } 
+
+ ///yellow button
+ &-yell{
+    background-color: rgb(248, 244, 7);
+    color: rgb(17, 17, 17);
+    transition: all .25s;
+    &:hover{
+     background-color: rgb(214, 211, 8) ;
+    }
+ } 
+ ////reverse yellow
+ &-r-yell{
+    background-color: transparent;
+    border:2px solid  rgb(247, 243, 21);
+    color:rgb(247, 243, 21);
+    transition: all .25s;
+    &:hover{
+     background-color: rgb(214, 211, 8) ;
+     color: rgb(17, 17, 17);
+     border:2px solid rgb(214, 211, 8) ;
+    }
+ } 
+
+ ///black button
+ &-black{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    transition: all .25s;
+    &:hover{
+     background-color: rgb(5, 5, 5) ;
+    }
+ } 
+ ////reverse yellow
+ &-r-black{
+    background-color: transparent;
+    border:2px solid  rgb(22, 22, 22);
+    color:rgb(22, 22, 22);;
+    transition: all .25s;
+    &:hover{
+     background-color:  rgb(5, 5, 5) ;
+     color: rgb(255, 255, 255) ;
+     border:2px solid   rgb(5, 5, 5) ;
+    }
+ } 
+
+
+
+
+
+
+
+
+
+   &:hover,&:focus{
+       box-shadow: 0 4px 8px rgba($color: #000000, $alpha: .2);
+   }
+}
+
+//end of round button
+
+
+/////gradient button
+
+.grdBtn{
+  &:link,&{
+   text-align: center;
+   padding: 1rem 2rem;
+   display: inline-block;
+   // border: none;
+   text-decoration: none;
+   text-transform: capitalize;
+   font-size: 1.2rem;
+   box-shadow: 0 2px 4px rgba($color: #000000, $alpha: .2);
+   border-radius: 4rem;
+   margin: 1rem;
+  }
+
+  ////red blue button
+
+  &-rd-bl{
+      background:linear-gradient(-20deg,rgb(226, 14, 60)0,rgb(6, 24, 124)50%,rgb(14, 113, 226));
+      color: white;
+      transition: all .25s;
+      &:hover{
+       background: linear-gradient(20deg,rgb(226, 14, 60)0%,rgb(6, 24, 124)50% ,rgb(9, 79, 160)) ;
+      }
+     }
+
+/////or -bl button
+  &-or-gr{
+     background:linear-gradient(-45deg,rgb(226, 176, 14)0,rgb(6, 124, 85)50%,rgb(14, 226, 180));
+     color: rgb(20, 20, 20);
+     transition: all .25s;
+     &:hover{
+      background: linear-gradient(20deg,rgb(226, 176, 14)0,rgb(6, 124, 85)50% ,rgb(14, 226, 180)) ;
+     }
+  }
+/////////////bl green
+
+&-bl-gr{
+  background:linear-gradient(-45deg,rgb(16, 117, 231)0,rgb(6, 24, 124)50%,rgb(14, 226, 180));
+  color: rgb(255, 255, 255);
+  transition: all .25s;
+  &:hover{
+   background: linear-gradient(45deg,rgb(16, 117, 231)0,rgb(6, 24, 124)50%,rgb(14, 226, 180)) ;
+  }
+}   
+
+///////or bl button
+&-or-bl{
+  background:linear-gradient(-45deg,rgb(231, 131, 16)0,rgb(6, 24, 124)50%,rgb(16, 117, 231));
+  color: rgb(255, 255, 255);
+  transition: all .25s;
+  &:hover{
+   background: linear-gradient(45deg,rgb(231, 131, 16)0,rgb(6, 24, 124)50%,rgb(16, 117, 231)) ;
+  }
+}
+////////rd blck button
+&-rd-bc{
+  background:linear-gradient(-45deg,rgb(226, 14, 60)0,rgb(1, 5, 26)50%,rgb(17, 17, 17));
+  color: rgb(255, 255, 255);
+  transition: all .25s;
+  &:hover{
+   background: linear-gradient(45deg,rgb(226, 14, 60)0,rgb(17, 17, 20)50%,rgb(17, 17, 17)) ;
+  }
+}
+
+&-or-rd{
+  background:linear-gradient(-45deg,rgb(226, 134, 14)0,rgb(121, 5, 11)50%,rgb(255, 4, 4));
+  color: rgb(255, 255, 255);
+  transition: all .25s;
+  &:hover{
+   background: linear-gradient(45deg,rgb(226, 134, 14)0,rgb(121, 5, 11)50%,rgb(255, 4, 4)) ;
+  }
+}
+
+
+  &:hover,&:focus{
+      box-shadow: 0 4px 8px rgba($color: #000000, $alpha: .2);
+  }
+
+}

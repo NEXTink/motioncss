@@ -20,3 +20,31 @@
 .bg{
   background-color: #86ddf3!important;
 }
+.center{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100vw;
+  height: 100vh;
+  background-color: #9bf8e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 99;
+
+}
+ .hidden{
+  animation: fadeout 10s ;
+  animation-fill-mode: forwards;
+}
+body{
+  position: relative;
+}
+@keyframes fadeout {
+   100%{
+     opacity: 0;
+     visibility: hidden;
+   }
+}

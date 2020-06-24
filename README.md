@@ -14,7 +14,7 @@
 </html>
 
 ```
-* Second Step is to add it to your elements the second class refers to the animation desired.
+* Second Step is to add it to your elements. The second class refers to the animation desired.
 There are so many choices, but select the ones that apply to the icon choosen.
 ```html 
 <div class="battery-icon charging">

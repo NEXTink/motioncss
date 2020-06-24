@@ -1,0 +1,26 @@
+.zoomIn{
+  width: 2rem;height: 2rem;
+  border-radius: 50%;
+  border: 2px solid currentColor;
+
+  position: relative;
+  i{
+    width: 1rem;
+    height: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: currentColor;
+    transform:translateX(-50%);
+    &:after{
+      width: 0.9rem;
+      height: 3px;
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: 0;
+      background-color: currentColor;
+      transform: rotate(45deg) translate(130%,20%);
+    }
+  }
+}

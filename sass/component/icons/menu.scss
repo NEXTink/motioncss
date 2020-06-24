@@ -1,0 +1,26 @@
+.menu{
+  position: relative;
+
+  &:before{
+    cursor: pointer;
+  content: "";
+    position: absolute;
+    left: 0;
+    width: 3rem;
+    height: 5px;
+    background-color: currentColor;
+    border-radius: 50rem;
+    top: -0.5rem;
+  }
+  &:after{
+      content: "";
+    position: absolute;
+    left: 0;
+    width: 3rem;
+    height: 5px;
+    background-color: currentColor;
+    border-radius: 50rem;
+    top: 0.5rem;
+    cursor: pointer;
+  }
+}

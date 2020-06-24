@@ -11,40 +11,16 @@
 @import "component/icons/briefcase";
 @import "component/icons/suitcase";
 @import "component/icons/bulb";
+@import "component/icons/menu";
+@import "component/icons/menutri";
+@import "component/icons/menuspli";
+@import "component/icons/zoomIn";
+@import "component/icons/zoomout";
+@import "component/icons/clock";
 @import "animations/iconanimations/icon";
+@import "animations/iconanimations/keyFrames";
 @import "component/load/loading";
 @import "component/load/circle-loading";
 @import "component/load/synccircle";
 @import "component/uiComponents/checkbox";
 @import "component/uiComponents/radio";
-.bg{
-  background-color: #86ddf3!important;
-}
-.center{
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  width: 100vw;
-  height: 100vh;
-  background-color: #9bf8e6;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  z-index: 99;
-
-}
- .hidden{
-  animation: fadeout 10s ;
-  animation-fill-mode: forwards;
-}
-body{
-  position: relative;
-}
-@keyframes fadeout {
-   100%{
-     opacity: 0;
-     visibility: hidden;
-   }
-}

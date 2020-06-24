@@ -2,9 +2,9 @@
   position: relative;
   width: 4rem;
   height: 6rem;
-  background-color: #424242;
+  background-color: currentColor;
   border-radius: .5rem;
-  color: #424242;
+  color: currentColor;
   //box-shadow: 0 2px 20px rgba(0,0,0,.9);
   &:before{
     content: "";

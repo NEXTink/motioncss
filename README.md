@@ -8,7 +8,7 @@
     <title>
       MotionCss by okechukwu omeh 
     </title>
-    <link rel="stylesheet" href="motion-css.min.css">
+    <link rel="stylesheet" href="motion-css.css">
   </head>
       
 </html>

@@ -29,7 +29,7 @@ There are so many choices, but select the ones that apply to the icon choosen.
 
 
 # Ui Components
- * ##### Buttons
+ *  Buttons
      * This line of html code helps to render a gradient button.
      There are numerous buttons to pick from, and more will be added regularly.
  ```html
@@ -96,7 +96,7 @@ There are so many choices, but select the ones that apply to the icon choosen.
  ```
           
 
-* ##### Elements
+*  Elements
    * Also there are many animated ui elements to pick from. From checkboxes to radio buttons
  
  ```html

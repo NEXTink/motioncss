@@ -1,5 +1,6 @@
 
 # Using Motion css
+![Ting Logo](/img/logo.png)
 *  First step is to import  the css file from the cloned  folder
 ```html 
 <html>
